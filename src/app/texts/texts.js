@@ -1,9 +1,9 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Fomy de Dilan";
+const email = "gloriaballesterosgalvis@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    `¡Hola! Estoy interesado en los productos de ${title} y me gustaría recibir más información sobre los muñecos y flores de fomy. ¡Espero su respuesta!`
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "3134775891";
 const textos = {
     index: {
         title: title,
@@ -12,25 +12,24 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "Fomy de Dilan se especializa en la creación de muñecos y flores de fomy, combinando ingenio y creatividad en cada uno de sus productos. Nos enfocamos en ofrecer decoraciones únicas y personalizadas.",
+        description2: "Nuestros productos son hechos a mano, con especial atención en los detalles y utilizando materiales de la más alta calidad para asegurar durabilidad y belleza en cada pieza. En Fomy de Dilan, estamos comprometidos a brindar productos que no solo sean visualmente atractivos, sino también funcionales, perfectos para decorar cualquier espacio con un toque único y creativo.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "",
+            p2: "Creatividad e ingenio en cada pieza",
         },
-        address: "Dirección del emprendimiento",
+        address: "",
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
         instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "https://www.facebook.com/profile.php?id=61566310071047&mibextid=ZbWKwL",
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
 export default textos;
